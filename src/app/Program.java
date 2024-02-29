@@ -43,8 +43,9 @@ public class Program {
 		acc2.withdraw(200.0);
 		System.out.println(acc2.getHolder() + " Balance: " + acc2.getBalance());
 		
-		
-		
+		Account acc3 = new BusinessAccount(1003, "Bob", 1000.0, 500.0);
+		acc3.withdraw(200.0);
+		System.out.println(acc3.getHolder() + " Balance: " + acc3.getBalance());
 	}
 
 }
